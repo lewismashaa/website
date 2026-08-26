@@ -95,6 +95,12 @@ h2 {
 	box-shadow: 0 8px 24px rgba(43, 26, 14, 0.08);
 	text-align: center;
 	padding-bottom: 1.1rem;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 12px 28px rgba(43, 26, 14, 0.12);
 }
 
 .item img {
